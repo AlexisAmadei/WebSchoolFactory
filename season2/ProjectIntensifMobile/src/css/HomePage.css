@@ -1,0 +1,42 @@
+.globalHomeContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.headerContainer {
+    position: fixed;
+    width: 100vw;
+    height: 139px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerCenter {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.headerRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.bodyHome {
+    margin-top: 139px;
+    margin-bottom: 50px;
+}

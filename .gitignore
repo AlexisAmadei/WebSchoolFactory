@@ -5,3 +5,4 @@ season2/init_api/src/env/token.json
 season2/pfa_engie/src/config/apiKey.json
 season2/pfa_engie/.firebaserc
 season2/pfa_engie/src/config/configFirebase.js
+season2/ProjectIntensifMobile/src/config/firebaseConfig.js

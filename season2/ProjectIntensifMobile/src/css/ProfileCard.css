@@ -1,0 +1,134 @@
+p {
+    margin: 0;
+}
+
+.globalCardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 31px;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    height: 316px;
+    width: 316px;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cardHeader img {
+    margin-top: 36px;
+}
+
+.cardHeaderInfo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 31px;
+}
+
+.cardHeaderInfo p {
+    margin: 0;
+}
+
+.cardPseudo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+    color: #222222;
+}
+
+.cardAge {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+}
+
+.cardCategory {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 36px;
+}
+
+.cardCategoryTitle {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 3px 6px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+    color: #222222;
+}
+
+#flagIcon {
+    margin-right: 12px;
+}
+
+.cardLang {
+    height: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nbReviews {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+    color: #979797;
+}
+
+#speakButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 8px;
+    width: fit-content;
+    left: 49.37%;
+    right: 8.23%;
+    top: 79.11%;
+    bottom: 6.96%;
+
+    background: #FACA16;
+    border-radius: 8px;
+}
+
+.cardFooter img {
+    margin-right: 8px;
+}

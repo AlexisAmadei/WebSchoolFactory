@@ -1,0 +1,95 @@
+.globalLangContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.langContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.langContainer p {
+    color: #222222;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.knowLangContainer {
+    display: flex;
+    margin: 8px 0 8px 0;
+}
+
+.learnLangContainer {
+    display: flex;
+    margin: 8px 0 8px 0;
+}
+
+.langSelectValidate {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.langSelectValidate button {
+    background: #FACA16;
+    border-radius: 8px;
+    width: 90%;
+    height: 50px;
+    border: none;
+}
+
+.langContainer .returnToLogin {
+    letter-spacing: -0.165px;
+    font-size: 16px;
+    align-self: center;
+    font-size: 16px;
+}
+
+.langContainer .returnToLogin #linkRouter {
+    color: #FACA16;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.langFooter {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+}
+
+.learnLangSelect {
+    display: flex;
+    flex-direction: column;
+}
+
+.langFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 16px;
+    width: fit-content;
+}
+
+.langSelectValidate button {
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.learnLangSelect p {
+    margin-bottom: 5px;
+}

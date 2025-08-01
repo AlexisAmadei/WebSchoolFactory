@@ -1,0 +1,125 @@
+.chatApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.chatAppHeader {
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.chatApp__input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    margin-bottom: 16px;
+}
+
+.chatApp__messages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex-grow: 1;
+    padding: 1rem;
+    margin-top: 100px;
+}
+
+.chatApp__messages::-webkit-scrollbar {
+    width: 5px;
+}
+
+.chatApp__messages::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sent,
+.received {
+    max-width: 60%;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    word-break: break-word;
+}
+
+.sent {
+    align-self: flex-end;
+    background-color: rgb(2, 229, 2);
+    color: white;
+}
+
+.received {
+    align-self: flex-start;
+    background-color: blue;
+    color: white;
+}
+
+.chatApp__input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.chatApp__input input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+}
+
+.chatApp__input button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.chatAppHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 36px;
+}
+#pseudo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+
+    color: #222222;
+}
+
+#headerChevron {
+    height: 17px;
+    width: 10px;
+    margin: 16px;
+}
