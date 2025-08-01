@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainHeader {
+  height: 56px;
+  color: white;
+}
+
+.container {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+.my-4 {
+  margin: 0 !important;
+}
