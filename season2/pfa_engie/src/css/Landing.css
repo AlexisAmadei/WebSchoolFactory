@@ -1,0 +1,33 @@
+.map-container {
+    flex: 1;
+    position: relative;
+}
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.landing-footer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.search-box {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.address-searchBar {
+    border: 1px solid #435C6E;
+}

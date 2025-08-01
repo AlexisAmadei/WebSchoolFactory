@@ -2,3 +2,6 @@ season2/*/.git*
 season3/*/.git*
 season4/*/.git*
 season2/init_api/src/env/token.json
+season2/pfa_engie/src/config/apiKey.json
+season2/pfa_engie/.firebaserc
+season2/pfa_engie/src/config/configFirebase.js
