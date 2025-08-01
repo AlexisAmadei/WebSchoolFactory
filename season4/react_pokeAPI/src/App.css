@@ -1,0 +1,6 @@
+.highlighted {
+    outline: 3px solid orange;
+    border-radius: 8px;
+    padding: 2px;
+    transition: outline 0.3s;
+}
