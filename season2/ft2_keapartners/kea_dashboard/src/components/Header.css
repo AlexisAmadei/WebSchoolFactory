@@ -1,0 +1,34 @@
+.h-container {
+    background-color: white;
+    color: black;
+    min-width: none;
+}
+
+.nav-item {
+    margin: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+a {
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.button-header__button {
+    display: flex;
+}
+
+.button-header__button img {
+    margin: 0 5px 0 1px;
+}
+
+.icon-head {
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.icon-head:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

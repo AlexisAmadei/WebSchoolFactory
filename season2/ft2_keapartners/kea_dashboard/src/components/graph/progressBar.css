@@ -1,0 +1,17 @@
+.main-progress {
+    background-color: #F7F9FB;
+}
+
+.progress-item {
+    margin: 14px 0 14px 0;
+}
+
+.progress-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.progress-label p {
+    margin: 5px;
+}

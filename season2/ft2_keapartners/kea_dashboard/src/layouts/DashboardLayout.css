@@ -1,0 +1,17 @@
+.dash-main-app {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+    flex-direction: row;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: scroll;
+    max-height: 100%;
+    max-width: 100%;
+}

@@ -1,0 +1,21 @@
+.button-header__button {
+    background-color: brown;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+.button-header {
+    margin: 5px;
+}
+
+.button-header__button:hover {
+    background-color: #000000;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.1);
+}

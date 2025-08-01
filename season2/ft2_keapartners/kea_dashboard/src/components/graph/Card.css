@@ -1,0 +1,39 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f9fb;
+    border-radius: 8px;
+    border: 1px solid rgba(77, 77, 77, 0.3);
+    padding: 15px 18px;
+    width: 25%;
+    height: min-content;
+}
+
+.card-title{
+    margin-bottom: 10px;
+}
+
+.card-container .card-title {
+    text-align: center;
+}
+
+.variation {
+    display: flex;
+    margin-right: 15px;
+}
+
+.operator, .value {
+    font-weight: bolder;
+    font-size: 32px;
+}

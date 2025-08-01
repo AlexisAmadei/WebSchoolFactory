@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'hansom_fyregular';
+    src: url('hansomfy-regular_s-webfont.woff2') format('woff2'),
+         url('hansomfy-regular_s-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hansom_fyregular';
+    src: url('hansomfy-regular-webfont.woff2') format('woff2'),
+         url('hansomfy-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hansom_fylight_italic';
+    src: url('hansomfy-lightitalic-webfont.woff2') format('woff2'),
+         url('hansomfy-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hansom_fylight_italic';
+    src: url('hansomfy-lightitalic_s-webfont.woff2') format('woff2'),
+         url('hansomfy-lightitalic_s-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hansom_fybold';
+    src: url('hansomfy-bold-webfont.woff2') format('woff2'),
+         url('hansomfy-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hansom_fybold';
+    src: url('hansomfy-bold_s-webfont.woff2') format('woff2'),
+         url('hansomfy-bold_s-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hansom_fybold_italic';
+    src: url('hansomfy-bolditalic-webfont.woff2') format('woff2'),
+         url('hansomfy-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hansom_fybold_italic';
+    src: url('hansomfy-bolditalic_s-webfont.woff2') format('woff2'),
+         url('hansomfy-bolditalic_s-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hansom_fyitalic';
+    src: url('hansomfy-italic-webfont.woff2') format('woff2'),
+         url('hansomfy-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hansom_fyitalic';
+    src: url('hansomfy-italic_s-webfont.woff2') format('woff2'),
+         url('hansomfy-italic_s-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hansom_fylight';
+    src: url('hansomfy-light-webfont.woff2') format('woff2'),
+         url('hansomfy-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hansom_fylight';
+    src: url('hansomfy-light_s-webfont.woff2') format('woff2'),
+         url('hansomfy-light_s-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
